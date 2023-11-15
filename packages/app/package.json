@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sample application",
   "main": "index.js",
+  "type": "module",
   "author": "Gabriele Buffolino",
   "license": "ISC",
   "devDependencies": {

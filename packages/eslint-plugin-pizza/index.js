@@ -1,6 +1,8 @@
+import noPineapplePizzaRule from "./rules/no-pineapple-pizza"
+
 const plugin = {
   rules: {
-    "no-pineapple-pizza": require("./rules/no-pineapple-pizza"),
+    "no-pineapple-pizza": noPineapplePizzaRule,
   },
 };
 
