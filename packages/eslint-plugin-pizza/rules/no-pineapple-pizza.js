@@ -17,7 +17,7 @@ module.exports = {
           context.report({
             node,
             message:
-              "A notification was sent to Italian police. They're coming. Pineapple pizza is illegal, please eat pizza Margherita instead",
+              "A notification was sent to the Italian police. They're coming. Pineapple pizza is illegal, please eat pizza Margherita instead",
             fix(fixer) {
               return fixer.replaceText(node.callee, "eatPizzaMargherita");
             },
