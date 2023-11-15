@@ -1,0 +1,14 @@
+{
+  "name": "eslint-plugin-pizza",
+  "version": "1.0.0",
+  "description": "Custom ESLint plugin for pizza",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./pizza-rules-test-entrypoint.js"
+  },
+  "author": "Gabriele Buffolino",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.53.0"
+  }
+}

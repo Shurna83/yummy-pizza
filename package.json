@@ -1,0 +1,16 @@
+{
+  "name": "yummy-pizza",
+  "version": "1.0.0",
+  "description": "Sample of custom ESLint plugin definition",
+  "scripts": {
+    "test": "npm t --workspaces --if-present"
+  },
+  "author": "Gabriele Buffolino",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^8.53.0"
+  }
+}

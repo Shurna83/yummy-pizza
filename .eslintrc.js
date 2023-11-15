@@ -1,0 +1,27 @@
+module.exports = {
+  env: {
+    es2021: true,
+    node: true,
+  },
+  extends: "eslint:recommended",
+  overrides: [
+    {
+      env: {
+        node: true,
+      },
+      files: [".eslintrc.{js,cjs}"],
+      parserOptions: {
+        sourceType: "script",
+      },
+    },
+  ],
+  parserOptions: {
+    ecmaVersion: "latest",
+    sourceType: "module",
+  },
+  plugins: ["pizza"],
+  rules: {
+    "pizza/no-pineapple-pizza": "error",
+    "no-unused-vars": "warn",
+  },
+};

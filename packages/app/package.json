@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Sample application",
+  "main": "index.js",
+  "author": "Gabriele Buffolino",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-plugin-pizza": "^1.0.0"
+  }
+}

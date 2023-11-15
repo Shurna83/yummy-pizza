@@ -1,0 +1,1 @@
+require("./rules/no-pineapple-pizza.test");
