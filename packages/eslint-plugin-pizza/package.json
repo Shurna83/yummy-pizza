@@ -2,6 +2,7 @@
   "name": "eslint-plugin-pizza",
   "version": "1.0.0",
   "description": "Custom ESLint plugin for pizza",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "node ./pizza-rules-test-entrypoint.js"

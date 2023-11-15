@@ -1,5 +1,5 @@
-const rule = require("./no-pineapple-pizza");
-const { RuleTester } = require("eslint");
+import rule from "./no-pineapple-pizza.js";
+import { RuleTester } from "eslint";
 
 const ruleTester = new RuleTester({
   // Must use at least ecmaVersion 2015 because

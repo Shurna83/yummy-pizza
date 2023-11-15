@@ -1,1 +1,1 @@
-require("./rules/no-pineapple-pizza.test");
+import "./rules/no-pineapple-pizza.test.js";
