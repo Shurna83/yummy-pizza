@@ -1,5 +1,5 @@
-import { eatPizzaMargherita } from "./eatPineapplePizza";
+import { eatPineapplePizza, eatPizzaMargherita } from "./eatPineapplePizza";
 
 export function eatPizza() {
-  return eatPizzaMargherita();
+  return eatPineapplePizza();
 }
